@@ -1,0 +1,12 @@
+'''
+@auhor ==> Abhishek
+
+Program or facorial
+'''
+def fact(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    return fact
+
+print fact(5)
